@@ -39,6 +39,4 @@ export default async function request(url, options) {
   }
 
   return ret;
-
-
 }

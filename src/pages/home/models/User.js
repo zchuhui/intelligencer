@@ -6,7 +6,7 @@ export default {
   //初始化状态
   state: {
   	list: [],
-    total: null,
+    total: null, 
   },
   reducers: {
   	save(state, { payload: { data: list, total, page } }) {

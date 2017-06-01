@@ -9,14 +9,14 @@ class HomeTable extends Component {
     constructor(props) {
         super(props);
     };
-
+    
     render() {
         return (
             <div>
                 <table>
                     <tr className={ styles.test }>
-                        <td>1111</td>
-                        <td>1111</td>
+                        <td className={ styles.t1 }>1111</td>
+                        <td className={ styles.t2 }>1111</td>
                         <td>1111</td>
                         <td>1111</td>
                     </tr>
