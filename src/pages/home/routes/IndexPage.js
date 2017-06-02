@@ -1,14 +1,13 @@
 import React from 'react';
 import { connect } from 'dva';
-import Header from '../../../components/Header/Header.js';
+import MainLayout from '../../../components/MainLayout/MainLayout';
 import HomeTable from '../views/HomeTable.js';
 
 function IndexPage() {
     return (
-        <div>
-            <Header />
-            <HomeTable />
-        </div>
+        <MainLayout>
+        	<div>content</div>
+        </MainLayout>
     );
 }
 
